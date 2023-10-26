@@ -33,7 +33,7 @@ export class WidgetsService {
   }
 
   private getUrl() {
-    return `${API_ENDPOINT}${this.model}`;
+    return `${API_ENDPOINT}/${this.model}`;
   }
 
   private getUrlWithId(id) {
